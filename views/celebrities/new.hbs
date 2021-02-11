@@ -1,0 +1,22 @@
+<h2>New Celebrities</h2>
+<form action="/celebrities" method="POST">
+  <label for="name">Name: </label>
+  <input type="text" name="name" id="name">
+
+  <label for="occupation">Occupation: </label>
+  <input type="text" name="occupation" id="occupation">
+
+  <label for="catchPhrase">catchPhrase: </label>
+  <input type="text" name="catchPhrase" id="catchPhrase">
+
+  <button type="submit">Add a celebrity</button>
+
+  {{!-- <label for="author">Author: </label>
+  <input type="text" name="author" id="author"> --}}
+  {{!-- <select name="author" id="">
+    {{#each authors}}
+      <option value="{{this._id}}">{{this.name}} {{this.lastName}}</option>
+    {{/each}}
+  </select> --}}
+
+</form>
